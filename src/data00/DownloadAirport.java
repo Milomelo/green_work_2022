@@ -16,6 +16,7 @@ import data00.AirportDto.Response.Body.Items.Item;
 public class DownloadAirport {
 
     // 공항목록을 조회하여 Map에 담아서 return하는 메서드
+
     public static Map<String, String> getAirportList() {
 
         Map<String, String> airportMap = new HashMap<>();
@@ -27,6 +28,7 @@ public class DownloadAirport {
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             // 원래 defualt는 1bytre로 한글을 끊어 읽어서 글이 깨졋는데
             // utf-8은 3byte로 끊어 읽겠다.
+
             BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream(), "utf-8"));
             String responseJson = br.readLine();
             Gson gson = new Gson();
