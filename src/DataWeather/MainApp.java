@@ -1,9 +1,10 @@
-package DataWeather;
+package dataWeather;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
-import DataWeather.WheatherDto.Response.Body.Items.Item;
+
+import dataWeather.WheatherDto.Response.Body.Items.Item;
 
 public class MainApp {
 

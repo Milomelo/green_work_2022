@@ -1,4 +1,4 @@
-package DataWeather;
+package dataWeather;
 
 import java.util.List;
 
