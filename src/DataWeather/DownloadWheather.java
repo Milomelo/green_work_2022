@@ -1,4 +1,4 @@
-package dataWeather;
+package DataWeather;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -11,7 +11,7 @@ import java.util.Map;
 
 import com.google.gson.Gson;
 
-import dataWeather.WheatherDto.Response.Body.Items.Item;
+import DataWeather.WheatherDto.Response.Body.Items.Item;
 
 public class DownloadWheather {
 

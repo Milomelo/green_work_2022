@@ -30,6 +30,7 @@ public class MainApp {
             }
 
             dto.getData().get(1).setId(5000);
+
             System.out.println(dto.getData().get(1).getId());
             for (int i = dto.getData().size() - 1; i >= 0; i--) {
                 System.out.println("===============");

@@ -1,57 +1,60 @@
-package DataWeather;
+package Covid;
 
 import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@Data
 @AllArgsConstructor
-public class WheatherDto {
+@Data
+public class ResponseDto {
     private Response response;
 
-    @Data
     @AllArgsConstructor
+    @Data
     class Response {
         private Header header;
         private Body body;
 
-        @Data
         @AllArgsConstructor
+        @Data
         class Header {
             private int resultCode;
-            private String resulMsg;
+            private String resultMsg;
 
         }
 
-        @Data
         @AllArgsConstructor
+        @Data
         class Body {
-            private String dataType;
-
             private Items items;
-
-            private int pageNo;
             private int numOfRows;
+            private int pageNo;
             private int totalCount;
 
-            @Data
             @AllArgsConstructor
+            @Data
             class Items {
                 private List<Item> item;
 
-                @Data
                 @AllArgsConstructor
-
+                @Data
                 class Item {
-                    private String baseDate;
-                    private String baseTime;
-                    private String category;
-                    private String nx;
-                    private String ny;
-                    private String obsrValue;
+
+                    private String accExamCnt;
+                    private String createDt;
+                    private String deathCnt;
+                    private String decideCnt;
+                    private String seq;
+                    private String stateDt;
+                    private String stateTime;
+                    private String updateDt;
+
                 }
             }
+
         }
+
     }
+
 }

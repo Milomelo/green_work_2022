@@ -7,6 +7,9 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\green_workspace\\downloads\\lombok.jar",
-        "c:\\green_workspace\\lib\\gson-2.8.5.jar"
+        "c:\\green_workspace\\lib\\gson-2.8.5.jar",
+        "c:\\green_workplaces\\downloads\\lombok/**/*.jar",
+        "c:\\green_workplaces\\downloads\\lombok.jar",
+        "c:\\green_workplaces\\downloads\\gson-2.8.5.jar"
     ]
 }
