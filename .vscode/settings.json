@@ -10,6 +10,7 @@
         "c:\\green_workspace\\lib\\gson-2.8.5.jar",
         "c:\\green_workplaces\\downloads\\lombok/**/*.jar",
         "c:\\green_workplaces\\downloads\\lombok.jar",
-        "c:\\green_workplaces\\downloads\\gson-2.8.5.jar"
+        "c:\\green_workplaces\\downloads\\gson-2.8.5.jar",
+        "c:\\green_workplaces\\downloads\\ojdbc8-21.1.0.0.jar"
     ]
 }
